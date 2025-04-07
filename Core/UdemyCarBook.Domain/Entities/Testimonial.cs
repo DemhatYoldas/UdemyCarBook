@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UdemyCarBook.Domain.Entities
 {
-    internal class Testimonial
+    public class Testimonial
     {
         public int TestimonialID { get; set; }
         public int Name  { get; set; }
